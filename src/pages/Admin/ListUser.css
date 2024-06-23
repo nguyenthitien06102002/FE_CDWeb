@@ -1,0 +1,9 @@
+.status-locked {
+    color: red;
+    font-weight: bold;
+}
+
+.status-active {
+    color: green;
+    font-weight: bold;
+}

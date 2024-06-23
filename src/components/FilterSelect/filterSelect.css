@@ -1,0 +1,30 @@
+.fruite .fruite-categorie .fruite-name {
+    line-height: 40px;
+    color: #416D19;
+}
+
+.fruite .fruite-categorie .fruite-name a {
+    transition: 0.5s;
+    text-decoration: none;
+    color: #416D19!important;
+}
+
+.fruite .fruite-categorie .fruite-name a:hover {
+    color: #FFF67E!important;
+}
+.style-name{
+    color: #416D19!important;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.style-name:hover {
+    color: #9BCF53!important;
+
+
+}
+.selected {
+    color: red; /* hoặc màu khác tùy thuộc vào thiết kế của bạn */
+  }
+  

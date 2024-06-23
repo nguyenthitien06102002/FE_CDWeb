@@ -1,0 +1,55 @@
+.navbar-order {
+	display: flex;
+	justify-content: space-between;
+}
+
+.navbar-order div {
+	font-size: 16px;
+	/* Default font size */
+}
+
+.navbar-order .back-text {
+	display: inline;
+	/* Show the text by default */
+}
+
+
+
+.product-row .image {
+	width: 100px;
+	height: 100%;
+	object-fit: cover;
+	margin-right: 10px;
+}
+
+.product-row {
+	display: flex;
+	align-items: center;
+	margin: 10px 0;
+}
+
+
+.product-row .info {
+	flex: 1;
+}
+
+.product-row .product-name,
+.product-row .product-quantity {
+	margin: 0;
+}
+
+.product-row .product-price {
+	margin: 0;
+	margin-left: auto;
+}
+@media (max-width: 600px) {
+	.navbar-order div {
+		font-size: 12px;
+		/* Smaller font size on screens less than or equal to 600px wide */
+	}
+
+	.navbar-order .back-text {
+		display: none;
+		/* Hide the text on smaller screens */
+	}
+}

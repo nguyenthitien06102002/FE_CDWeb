@@ -1,0 +1,26 @@
+.bg-custom {
+  background-color: #9BCF53;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 250px; /* Điều chỉnh chiều rộng của sidebar */
+  background-color: #9BCF53; /* Màu nền của sidebar */
+  overflow-y: auto; /* Cho phép cuộn nếu nội dung vượt quá chiều cao */
+  z-index: 1000; /* Đảm bảo sidebar hiển thị trên các thành phần khác */
+  color: beige;
+}
+
+/* Thêm phần style cho link được chọn */
+.sidebar-link.active {
+  background-color: white; /* Đổi màu nền thành màu trắng */
+  color: black; /* Đổi màu chữ thành màu đen */
+}
+
+/* Đổi màu cho icon */
+.sidebar-link.active .fa-icon {
+  color: black;
+}
